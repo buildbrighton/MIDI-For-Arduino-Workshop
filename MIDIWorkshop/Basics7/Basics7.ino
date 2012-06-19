@@ -8,6 +8,9 @@
 #define LED7PIN  8
 #define LED8PIN  6
 
+/**
+  Turns on the LEDs depending on the LDR
+**/
 void setup()
 {
   pinMode(LED1PIN, OUTPUT);
