@@ -65,7 +65,7 @@ void handleButton(byte which, byte inputPin, byte outputPin, byte note)
 void loop()
 {
   handleButton(0, SWITCHAPIN, LED1PIN, 48);
-  handleButton(1, SWITCHBPIN, LED2PIN, 49);
-  handleButton(2, SWITCHCPIN, LED3PIN, 50);
-  handleButton(3, SWITCHDPIN, LED4PIN, 51);
+  handleButton(1, SWITCHBPIN, LED2PIN, 50);
+  handleButton(2, SWITCHCPIN, LED3PIN, 52);
+  handleButton(3, SWITCHDPIN, LED4PIN, 53);
 }

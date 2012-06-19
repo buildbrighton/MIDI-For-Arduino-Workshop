@@ -33,5 +33,5 @@ void indicate(int value)
 }
 void loop()
 {
- indicate(analogRead(1) * 2);
+ indicate(analogRead(1) * 8);
 }
